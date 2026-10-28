@@ -1,0 +1,6 @@
+{
+  "require": "dotenv/config",
+  "timeout": 60000,
+  "reporter": "mochawesome",
+  "reporter-options": "reportDir=reports,reportFilename=report,quiet=true,overwrite=true"
+}

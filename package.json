@@ -1,0 +1,35 @@
+{
+  "name": "selenium-webjs-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate automation web menggunakan Selenium WebDriver dengan JavaScript (Node.js)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js",
+    "test:chrome": "cross-env BROWSER=chrome npm test",
+    "test:firefox": "cross-env BROWSER=firefox npm test",
+    "test:edge": "cross-env BROWSER=edge npm test",
+    "test:headless": "cross-env HEADLESS=true npm test"
+  },
+  "keywords": [
+    "selenium",
+    "selenium-webdriver",
+    "automation",
+    "e2e",
+    "mocha",
+    "javascript"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "selenium-webdriver": "^4.27.0"
+  },
+  "devDependencies": {
+    "chai": "^4.4.1",
+    "cross-env": "^7.0.3",
+    "mocha": "^10.7.3",
+    "mochawesome": "^7.1.3"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
