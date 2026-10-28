@@ -101,5 +101,6 @@ module.exports = LoginPage;
 
 ## Catatan
 
+- Run pertama kali bisa lebih lambat karena Selenium Manager perlu mengunduh driver binary (chromedriver/geckodriver). Setelah itu, driver sudah tersimpan di cache (`~/.cache/selenium`) dan run selanjutnya jauh lebih cepat.
 - Contoh test memakai halaman resmi Selenium (`https://www.selenium.dev/selenium/web/web-form.html`) yang memang disediakan untuk latihan automation, jadi aman dan stabil dipakai sebagai referensi.
 - Ganti `BASE_URL` di `.env` dan sesuaikan Page Object sesuai target web yang ingin diotomasi.
